@@ -1,0 +1,30 @@
+.login{
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  margin: 0 2rem;
+}
+
+.loginForm{
+  width: 100%;
+}
+
+.login-control {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 1rem 0;
+}
+
+.login-control > label {
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.login-control > input{
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  outline: none;
+}
